@@ -27,7 +27,7 @@ defmodule SimpleGraphqlClient.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:httpoison, "=> 0.13"},
+      {:httpoison, "~> 0.13"},
       {:poison, "~> 3.1"},
       {:websockex, "~> 0.4.0"},
       {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false},
