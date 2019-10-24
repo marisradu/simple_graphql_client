@@ -28,7 +28,7 @@ defmodule SimpleGraphqlClient.MixProject do
   defp deps do
     [
       {:httpoison, "~> 0.13"},
-      {:poison, "~> 3.1"},
+      {:poison, "~> 4.0"},
       {:websockex, "~> 0.4.0"},
       {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false},
       {:credo, "~> 0.10.0", only: [:dev, :test], runtime: false},
